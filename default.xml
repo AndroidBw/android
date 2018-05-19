@@ -14,7 +14,7 @@
            revision="refs/tags/android-8.1.0_r26" />
 		   
   <remote  name="androidbw"
-		   fetch="https://github.com/AndroidBw"
+		   fetch="https://github.com"
 		   sync-c="true"
 		   sync-j="4" 
 		   revision="androidbw8.1" />
@@ -26,7 +26,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build/make" name="android_build" groups="pdk" remote="androidbw" >
+  <project path="build/make" name="AndroidBw/android_build" groups="pdk" remote="androidbw" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -436,7 +436,7 @@
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="androidbw" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="AndroidBw/android_packages_apps_Settings" remote="androidbw" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
