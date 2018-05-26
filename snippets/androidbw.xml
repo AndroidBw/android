@@ -132,6 +132,6 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
   
   <!-- AndroidBw -->
-  <project name="AndroidBw/android_packages_apps_androidbw" path="packages/apps/androidbw" remote="github" revision="androidbw8.1" />
+  <project name="AndroidBw/android_packages_apps_androidbw" path="packages/apps/AndroidBw" remote="github" revision="androidbw8.1" />
   
 </manifest>
