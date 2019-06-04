@@ -130,6 +130,8 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
   
   <!-- AndroidBw -->
-  <project name="AndroidBw/android_packages_apps_androidbw" path="packages/apps/AndroidBw" remote="github" revision="androidbw9.0" />
+  <project path="packages/apps/AndroidBw" name="AndroidBw/android_packages_apps_androidbw" remote="github" revision="androidbw9.0" />
+  <project path="packages/apps/SetupWizard" name="AndroidBw/android_packages_apps_SetupWizard" remote="github" revision="androidbw9.0" />
+  <project path="packages/apps/Wireguard" name="WireGuard/wireguard-android" remote="github" revision="master" /> 
   
 </manifest>
