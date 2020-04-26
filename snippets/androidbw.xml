@@ -154,4 +154,8 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+  
+  <!-- AndroidBw -->
+  <project path="packages/apps/AndroidBw" name="AndroidBw/android_packages_apps_androidbw" remote="androidbw" />
+  
 </manifest>
